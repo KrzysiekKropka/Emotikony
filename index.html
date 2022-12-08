@@ -1,0 +1,594 @@
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="1500" height="200"></canvas>
+    <script name="Smile">
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+        var centerX = 100;
+        var centerY = canvas.height / 2;
+        //głowa
+        context.beginPath();
+        context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+        context.fillStyle = 'yellow';
+        context.fill();
+        context.lineWidth = 5;
+        context.strokeStyle = 'black';
+        context.stroke();
+        //lewe oko
+        context.beginPath();
+        context.arc(centerX-30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+        context.fillStyle = 'white';
+        context.fill();
+        context.lineWidth = 2;
+        context.strokeStyle = 'black';
+        context.stroke();
+        
+        context.beginPath();
+        context.arc(centerX-30, centerY-20, 5, 0, 2 * Math.PI, false);
+        context.fillStyle = 'black';
+        context.fill();
+        context.lineWidth = 2;
+        context.strokeStyle = 'black';
+        context.stroke();
+        //prawe oko
+        context.beginPath();
+        context.arc(centerX+30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+        context.fillStyle = 'white';
+        context.fill();
+        context.lineWidth = 2;
+        context.strokeStyle = 'black';
+        context.stroke();
+
+        context.beginPath();
+        context.arc(centerX+30, centerY-20, 5, 0, 2 * Math.PI, false);
+        context.fillStyle = 'black';
+        context.fill();
+        context.lineWidth = 2;
+        context.strokeStyle = 'black';
+        context.stroke();
+        //uśmiech
+        context.beginPath();
+        context.arc(centerX, centerY+10, 40, 0, 1 * Math.PI, false);
+        context.lineWidth = 5;
+        context.strokeStyle = 'black';
+        context.stroke();
+    </script>
+
+<script name="BigSmile">
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+    var centerX = 250;
+    var centerY = canvas.height / 2;
+
+    //głowa
+    context.beginPath();
+    context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+    context.fillStyle = 'yellow';
+    context.fill();
+    context.lineWidth = 5;
+    context.strokeStyle = 'black';
+    context.stroke();
+
+    //lewe oko
+    context.beginPath();
+    context.arc(centerX-30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+    context.fillStyle = 'white';
+    context.fill();
+    context.lineWidth = 2;
+    context.strokeStyle = 'black';
+    context.stroke();
+    
+    context.beginPath();
+    context.arc(centerX-30, centerY-20, 5, 0, 2 * Math.PI, false);
+    context.fillStyle = 'black';
+    context.fill();
+    context.lineWidth = 2;
+    context.strokeStyle = 'black';
+    context.stroke();
+    //prawe oko
+    context.beginPath();
+    context.arc(centerX+30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+    context.fillStyle = 'white';
+    context.fill();
+    context.lineWidth = 2;
+    context.strokeStyle = 'black';
+    context.stroke();
+
+    context.beginPath();
+    context.arc(centerX+30, centerY-20, 5, 0, 2 * Math.PI, false);
+    context.fillStyle = 'black';
+    context.fill();
+    context.lineWidth = 2;
+    context.strokeStyle = 'black';
+    context.stroke();
+
+    context.beginPath();
+    context.arc(centerX, centerY+10, 40, 0, 1 * Math.PI, false);
+    context.fillStyle = 'white';
+    context.fill();
+    context.lineWidth = 5;
+    context.strokeStyle = 'black';
+    context.closePath();
+    context.stroke();
+</script>
+
+<script name="PsychoSmile">
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+    var centerX = 400;
+    var centerY = canvas.height / 2;
+    //głowa
+    context.beginPath();
+    context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+    context.fillStyle = 'yellow';
+    context.fill();
+    context.lineWidth = 5;
+    context.strokeStyle = 'black';
+    context.stroke();
+
+    //lewe oko
+    context.beginPath();
+    context.arc(centerX-30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+    context.fillStyle = 'white';
+    context.fill();
+    context.lineWidth = 2;
+    context.strokeStyle = 'black';
+    context.stroke();
+    
+    context.beginPath();
+    context.arc(centerX-30, centerY-20, 5, 0, 2 * Math.PI, false);
+    context.fillStyle = 'black';
+    context.fill();
+    context.lineWidth = 2;
+    context.strokeStyle = 'black';
+    context.stroke();
+    //prawe oko
+    context.beginPath();
+    context.arc(centerX+30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+    context.fillStyle = 'white';
+    context.fill();
+    context.lineWidth = 2;
+    context.strokeStyle = 'black';
+    context.stroke();
+
+    context.beginPath();
+    context.arc(centerX+30, centerY-20, 5, 0, 2 * Math.PI, false);
+    context.fillStyle = 'black';
+    context.fill();
+    context.lineWidth = 2;
+    context.strokeStyle = 'black';
+    context.stroke();
+
+    context.beginPath();
+    context.arc(centerX, centerY+10, 40, 0, 1 * Math.PI, false);
+    context.fillStyle = 'white';
+    context.fill();
+    context.lineWidth = 5;
+    context.strokeStyle = 'black';
+    context.closePath();
+    context.stroke();
+
+    context.beginPath();
+    context.strokeStyle = 'black';
+    context.lineWidth = 5;
+    context.moveTo(centerX+15, centerY-35);
+    context.lineTo(centerX+40, centerY-45);
+    context.stroke();
+
+    context.beginPath();
+    context.strokeStyle = 'black';
+    context.lineWidth = 5;
+    context.moveTo(centerX-15, centerY-35);
+    context.lineTo(centerX-40, centerY-45);
+    context.stroke();
+</script>
+
+<script name="Sad">
+  var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = 550;
+  var centerY = canvas.height / 2;
+  //głowa
+  context.beginPath();
+  context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+  context.fillStyle = 'yellow';
+  context.fill();
+  context.lineWidth = 5;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  //lewe oko
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  //prawe oko
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX, centerY+35, 30, 0, 1 * Math.PI, true);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 1;
+  context.strokeStyle = 'black';
+  context.stroke();
+</script>
+
+<script name="BigSad">
+  var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = 700;
+  var centerY = canvas.height / 2;
+  //głowa
+  context.beginPath();
+  context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+  context.fillStyle = 'yellow';
+  context.fill();
+  context.lineWidth = 5;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  //lewe oko
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  //prawe oko
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX, centerY+35, 30, 0, 1 * Math.PI, true);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 1;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX+15, centerY-50);
+  context.lineTo(centerX+40, centerY-40);
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX-15, centerY-50);
+  context.lineTo(centerX-40, centerY-40);
+  context.stroke();
+</script>
+
+<script name="Angry">
+  var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = 850;
+  var centerY = canvas.height / 2;
+  //głowa
+  context.beginPath();
+  context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+  context.fillStyle = 'orange';
+  context.fill();
+  context.lineWidth = 5;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  //lewe oko
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  //prawe oko
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX, centerY+40, 30, 0, 1 * Math.PI, true);
+  context.lineWidth = 5;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX+15, centerY-35);
+  context.lineTo(centerX+40, centerY-45);
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX-15, centerY-35);
+  context.lineTo(centerX-40, centerY-45);
+  context.stroke();
+</script>
+
+<script name="VeryAngry">
+  var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = 1000;
+  var centerY = canvas.height / 2;
+  //głowa
+  context.beginPath();
+  context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+  context.fillStyle = 'red';
+  context.fill();
+  context.lineWidth = 5;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  //lewe oko
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  //prawe oko
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX, centerY+40, 30, 0, 1 * Math.PI, true);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 1;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX+15, centerY-35);
+  context.lineTo(centerX+40, centerY-45);
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX-15, centerY-35);
+  context.lineTo(centerX-40, centerY-45);
+  context.stroke();
+</script>
+
+<script name="NotFeelingWell">
+  var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = 1150;
+  var centerY = canvas.height / 2;
+  //głowa
+  context.beginPath();
+  context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+  context.fillStyle = '#AFE1AF';
+  context.fill();
+  context.lineWidth = 5;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  //lewe oko
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 7, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  //prawe oko
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 12.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 7, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX+15, centerY-50);
+  context.lineTo(centerX+40, centerY-40);
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX-15, centerY-50);
+  context.lineTo(centerX-40, centerY-40);
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX+1, centerY+25);
+  context.lineTo(centerX-40, centerY+30);
+  context.stroke();
+
+  context.beginPath();
+  context.strokeStyle = 'black';
+  context.lineWidth = 5;
+  context.moveTo(centerX+40, centerY+30);
+  context.lineTo(centerX, centerY+25);
+  context.stroke();
+</script>
+
+<script name="Shocked">
+  var canvas = document.getElementById('myCanvas');
+  var context = canvas.getContext('2d');
+  var centerX = 1300;
+  var centerY = canvas.height / 2;
+  //głowa
+  context.beginPath();
+  context.arc(centerX, centerY, 70, 0, 2 * Math.PI, false);
+  context.fillStyle = 'yellow';
+  context.fill();
+  context.lineWidth = 5;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  //lewe oko
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 17.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  
+  context.beginPath();
+  context.arc(centerX-30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+  //prawe oko
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 17.5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'white';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX+30, centerY-20, 5, 0, 2 * Math.PI, false);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+  context.beginPath();
+  context.arc(centerX, centerY+25, 20, 0, 2 * Math.PI, true);
+  context.fillStyle = 'black';
+  context.fill();
+  context.lineWidth = 1;
+  context.strokeStyle = 'black';
+  context.stroke();
+
+
+</script>
+</body>
+</html>    
